@@ -1,0 +1,17 @@
+Instructions to run the program
+
+Since we are labeling our training data based on file extension which is .ppm for face data and .png for non face data, we need to organize it in directory structure as mentioned below
+
+faceData
+   |testData
+		| put 100 face images with .ppm extension
+   |trainData
+		| put face images with .ppm extension
+		| put non face images with .png extension
+
+place the face data folder in the same directory as of FaceDetect.py
+
+run command: python FaceDetect.py
+
+No need to pass argument containing path of training data folder as we have arranged our training data by hardcoding the path.
+

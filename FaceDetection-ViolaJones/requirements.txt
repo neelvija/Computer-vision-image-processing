@@ -1,0 +1,8 @@
+import copy
+from PIL import Image
+import os
+import concurrent.futures
+from sklearn.metrics import roc_curve
+import json
+
+Pillow version 7.1.1
